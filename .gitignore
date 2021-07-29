@@ -1,0 +1,30 @@
+# GitIgnore for Salesforce Projects
+# Project Settings and MetaData
+.project
+.settings/
+.metadata
+build.properties
+config
+
+# Apex Log as optional
+apex-scripts/log
+
+# Illuminated Cloud (IntelliJ IDEA)
+IlluminatedCloud
+out
+.idea
+*.iml
+
+# OSX-specific exclusions
+.[dD][sS]_[sS]tore
+
+*.sfuo
+
+TestCache.xml
+
+TestsResultsCache.xml
+
+.sfdx
+.salesforce
+.settings
+node_modules
